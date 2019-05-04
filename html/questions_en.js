@@ -1,24 +1,24 @@
 var tableauQuestion = [
 	{
-		question: "If you're going 80 km/h, and you're approaching a residential area you must:",
-		propositionA: "You accelerate",
-		propositionB: "You keep your speed, if you do not pass other vehicles",
-		propositionC: "You slow down",
-		propositionD: "You keep your speed",
+		question: "Nếu bạn đang di chuyển với vận tốc 80km/h, và bạn đang tiếp cận khu vực dân cư thì bạn PHẢI:",
+		propositionA: "Bạn tăng tốc",
+		propositionB: "nếu bạn không vượt qua những phương tiện khác thì bạn giữ nguyên tốc độ",
+		propositionC: "Bạn giảm tốc độ",
+		propositionD: "Bạn giữ nguyên tốc độ",
 		reponse: "C"
 	},
 
 	{
-		question: "If you're turning right at a traffic light, but see a pedestrian crossing what do you do:",
-		propositionA: "You pass the pedestrian",
-		propositionB: "You check that there is no other vehicles around",
-		propositionC: "You wait until the pedestrian has crossed",
-		propositionD: "You shoot the pedestrian and continue to drive",
+		question: "Nếu bạn đang rẽ phải ở đèn giao thông, và bạn thấy một người đi bộ đang qua đường thì bạn sẽ làm gì?:",
+		propositionA: "Bạn vượt qua người đi bộ",
+		propositionB: "Bạn kiểm tra xem có phương tiện nào khác không",
+		propositionC: "Bạn đợi đến khi người đi bộ đã qua đường",
+		propositionD: "Bạn bắn người qua đường và tiếp tục lại",
 		reponse: "C"
 	},
 
 	{
-		question: "Without any prior indication, the speed in a residential area is: __ km/h",
+		question: "Không có dấu hiệu nào ưu tiên thì tốc độ trong khu vực dân cư sẽ là: __ km/h",
 		propositionA: "30 km/h",
 		propositionB: "50 km/h",
 		propositionC: "40 km/h",
@@ -27,16 +27,16 @@ var tableauQuestion = [
 	},
 
 	{
-		question: "Before every lane change you must:",
-		propositionA: "Check your mirrors",
-		propositionB: "Check your blind spots",
-		propositionC: "Signal your intentions",
-		propositionD: "All of the above",
+		question: "Trước khi chuyển làn bạn phải:",
+		propositionA: "Kiểm tra gương chiếu hậu",
+		propositionB: "Kiểm tra các điểm mù",
+		propositionC: "Xi nhan báo hiệu ý định chuyển làn",
+		propositionD: "Tất cả các ý trên",
 		reponse: "D"
 	},
 
 	{
-		question: "What blood alcohol level is classified as driving while intoxicated?",
+		question: "mức độ nồng độ cồn trong máu nào sẽ được xem là lái xe trong khi say rượu?",
 		propositionA: "0.05%",
 		propositionB: "0.18%",
 		propositionC: "0.08%",
@@ -45,34 +45,34 @@ var tableauQuestion = [
 	},
 
 	{
-		question: "When can you continue to drive at a traffic light?",
-		propositionA: "When it is green",
-		propositionB: "When there is nobody in the intersection",
-		propositionC: "You are in a school zone",
-		propositionD: "When it is green and / or red and you're turning right",
+		question: "Khi nào bạn được lái tiếp khi gặp đèn giao thông?",
+		propositionA: "Khi đèn xanh",
+		propositionB: "Khi không có ai ở ngã tư",
+		propositionC: "Bạn đang ở trong khu vực trường học",
+		propositionD: "Khi nó có màu xanh lá cây hoặc khi có màu đỏ và khi bạn đang rẽ phải",
 		reponse: "D"
 	},
 
 	{
-		question: "A pedestrian has a do not cross signal, what do you do?",
-		propositionA: "You let them pass",
-		propositionB: "You observe before continuing",
-		propositionC: "You wave to tell them to cross",
-		propositionD: "You continue because your traffic light is green",
+		question: "Khi không có tín hiệu đèn dành cho người qua đường, bạn sẽ làm gì?",
+		propositionA: "Bạn để người qua đường băng qua",
+		propositionB: "Bạn quan sát trước khi đi",
+		propositionC: "Bạn vẫy tay để ra hiệu cho họ băng qua",
+		propositionD: "Bạn tiếp tục đi vì đèn tín hiệu giao thông đang là đèn xanh",
 		reponse: "D"
 	},
 
 	{
-		question: "What is allowed when passing another vehicle",
-		propositionA: "You follow it closely to pass it faster",
-		propositionB: "You pass it without leaving the roadway",
-		propositionC: "You drive on the opposite side of the road to pass",
-		propositionD: "You exceed the speed limit to pass them",
+		question: "Điều gì được cho phép khi bạn đang vượt một xe khác?",
+		propositionA: "Bạn đi sát xe đó để vượt qua dễ hơn",
+		propositionB: "Bạn vượt qua xe đó mà không cần đổi làn",
+		propositionC: "Bạn lái xe ở phía đối diện đường để vượt",
+		propositionD: "Bạn có thể đạt đến tốc độ tối đa để vượt",
 		reponse: "C"
 	},
 
 	{
-		question: "You are driving on a highway which indicates a maximum speed of 120 km/h. But most trafficers drive at 125 km/h, so you should not drive faster than:",
+		question: "Bạn đang lái xe trên đường cao tốc và tốc độ tối đa được cho phép là 120 km/h. Nhưng hầu hết các xe khác di chuyển ở tốc độ 125 km/h, vậy bạn sẽ chạy ở tốc độ như thế nào?:",
 		propositionA: "120 km/h",
 		propositionB: "125 km/h",
 		propositionC: "130 km/h",
@@ -81,11 +81,11 @@ var tableauQuestion = [
 	},
 
 	{
-		question: "When you are overtaken by another vehicle it is important NOT to:",
-		propositionA: "Slow Down",
-		propositionB: "Check your mirrors",
-		propositionC: "Watch other drivers",
-		propositionD: "Increase your speed",
+		question: "Khi bạn bị vượt bởi xe khác, bạn KHÔNG NÊN :",
+		propositionA: "chạy chậm lại",
+		propositionB: "Kiểm tra gương chiếu hậu",
+		propositionC: "Quan sát tài xế khác",
+		propositionD: "Tăng tốc",
 		reponse: "D"
 	},
 ]
